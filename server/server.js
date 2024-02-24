@@ -37,7 +37,7 @@ const startApolloServer = async (typeDefs, resolvers) => {
 
   db.once('open', () => {
     const HOST = 'book-search-9m5v.onrender.com'; // or your desired host address
-app.listen({ port: PORT, host: HOST }, () => {
+app.listen({ port: PORT }, () => {
   
       console.log(`API server running on port ${PORT}!`);
       // log where we can go to test our GQL API
